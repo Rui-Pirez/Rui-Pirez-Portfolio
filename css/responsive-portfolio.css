@@ -1,0 +1,1545 @@
+@media (min-width: 1600px) and (max-width:2000px){
+
+  section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 25px;
+}
+
+  main {
+    width: 60%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  
+  
+  aside {
+    width: 40%;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 50px;
+  }
+
+  .asidecontent {
+    margin-top: 73px;
+}
+
+  .asidetitle2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    color: #292929;
+}
+
+  .asidetitle2 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #292929;
+}
+  
+  
+.palign {
+  
+  padding: 20px 0px 20px 0px;
+  text-align: left;
+}
+
+  .otrabalhos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .portfoliologo {
+    display: flex;
+    justify-content: center;
+    width: 31%;
+    height: auto;
+    margin-bottom: 15px;
+}
+  
+  .projectsquare2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    background: #efefef;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 0px;
+    font-weight: bold;
+  }
+  
+  
+  .projectsquare img {
+    width: 33%;
+      padding: 10px 10px;
+      align-items: center;
+      background: #4A5056;
+      justify-content: center;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+      border: none;
+      border-radius: 8px 8px 8px 8px;
+  }
+  .projectsquare a {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .projectsbox {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  
+  .projectsquare img {
+    width: 35%;
+    padding: 10px 10px;
+    align-items: center;
+    background: #4A5056;
+    justify-content: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+}
+  .projectsquare2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 32%;
+    padding: 8px;
+    border-radius: 5px;
+    background: #efefef;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 0px;
+    font-weight: bold;
+  }
+  .scrollbuttons {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titlefix {
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+  .menubutton {
+    width: 30%;
+    height: auto;
+  }
+  
+  .leftbutton {
+    width: 30%;
+    height: auto;
+  }
+  
+  .rightbutton {
+    width: 30%;
+    height: auto;
+  }
+  .buttonpadding {
+    margin-left: -55px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1400px) and (max-width:1599px){
+
+  section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 20px;
+}
+
+main {
+  width: 60%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
+aside {
+  width: 40%;
+  text-decoration: none;
+  padding-right: 0px;
+  padding-left: 50px;
+}
+
+
+.asidecontent {
+  margin-top: 73px;
+}
+
+.otrabalhos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.projectsquare2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+  padding: 8px;
+  border-radius: 5px;
+  background: #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+
+.projectsquare img {
+  width: 35%;
+  padding: 10px 10px;
+  align-items: center;
+  background: #4A5056;
+  justify-content: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+}
+.projectsquare a {
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.projectsbox {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.projectsquare img {
+  width: 35%;
+  padding: 10px 10px;
+  align-items: center;
+  background: #4A5056;
+  justify-content: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+.projectsquare2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 32%;
+  padding: 8px;
+  border-radius: 5px;
+  background: #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  padding-left: 0px;
+  font-weight: bold;
+}
+.portfoliologo {
+  display: flex;
+  justify-content: center;
+  width: 31%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+aside {
+  width: 40%;
+  text-decoration: none;
+  padding-right: 0px;
+  padding-left: 50px;
+}
+
+.asidecontent {
+  margin-top: 73px;
+}
+.asidetitle2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  color: #292929;
+}
+
+.asidetitle2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #292929;
+}
+
+.otrabalhos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projectsquare2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+  padding: 8px;
+  border-radius: 5px;
+  background: #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+
+.projectsquare img {
+  width: 33%;
+    padding: 10px 10px;
+    align-items: center;
+    background: #4A5056;
+    justify-content: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+}
+.projectsquare a {
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.projectsbox {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  margin-top: 15px;
+}
+
+.projectsquare img {
+  width: 35%;
+  padding: 10px 10px;
+  align-items: center;
+  background: #4A5056;
+  justify-content: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+}
+.projectsquare2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 32%;
+  padding: 8px;
+  border-radius: 5px;
+  background: #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+.titlefix {
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+
+.buttonpadding {
+  margin-left: -54px;
+  margin-right: -64px;
+}
+
+.menubutton {
+  width: 35%;
+  height: auto;
+}
+
+.leftbutton {
+  width: 35%;
+  height: auto;
+}
+
+.rightbutton {
+  width: 35%;
+  height: auto;
+}
+}
+
+/** Width between 1200x to 1399
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 1200px) and (max-width:1399px){
+  
+  section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+
+main {
+  width: 60%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
+aside {
+  width: 40%;
+  text-decoration: none;
+  padding-right: 0px;
+  padding-left: 50px;
+}
+
+.asidecontent {
+  margin-top: 73px;
+}
+
+.asidetitle2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  color: #292929;
+}
+
+.asidetitle2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #292929;
+}
+
+
+.palign {
+  
+  padding: 20px 30px 20px 30px;
+  text-align: left;
+}
+
+.otrabalhos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.projectsquare2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 32%;
+  padding: 8px;
+  border-radius: 5px;
+  background: #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+
+.projectsquare img {
+  width: 33%;
+    padding: 10px 10px;
+    align-items: center;
+    background: #4A5056;
+    justify-content: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+}
+.projectsquare a {
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.projectsbox {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  margin-top: 14px;
+}
+
+.projectsquare img {
+  width: 35%;
+  padding: 10px 10px;
+  align-items: center;
+  background: #4A5056;
+  justify-content: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+}
+.portfoliologo {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.scrollbuttons {
+  margin-bottom: 20px;
+  margin-left: 0px;
+  float: left;
+}
+
+.titlefix {
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+.menubutton {
+  width: 35%;
+  height: auto;
+}
+
+.leftbutton {
+  width: 35%;
+  height: auto;
+}
+
+.rightbutton {
+  width: 35%;
+  height: auto;
+}
+
+
+}
+
+
+
+
+
+
+/** Width between 992px to 1199px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+
+
+ @media (min-width:992px) and (max-width:1199px){
+
+
+
+  .otrabalhos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+
+  .asidecontent {
+    margin-top: 73px;
+}
+
+
+
+  .portfoliologo {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+
+  .menubutton {
+    width: 35%;
+    height: auto;
+  }
+  
+  .leftbutton {
+    width: 35%;
+    height: auto;
+  }
+  
+  .rightbutton {
+    width: 35%;
+    height: auto;
+  }
+  
+}
+
+
+
+
+
+/** Width between 768px to 991px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+
+
+@media (min-width:768px) and (max-width:991px){
+ 
+  section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 165%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+main {
+  width: 60%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+aside {
+  width: 40%;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.asidecontent {
+  margin-top: 73px;
+}
+
+.asidetitle2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  color: #292929;
+}
+
+.asidetitle2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #292929;
+}
+
+
+
+.otrabalhos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+
+.projectsquare {
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  border-radius: 8px;
+  background: #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding-left: 0px;
+  height: 120px;
+}
+
+.projectsquare2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 31%;
+  padding: 8px;
+  border-radius: 5px;
+  background: #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  padding-left: 0px;
+  font-weight: 600;
+  font-size: 8px;
+}
+
+
+.projectsquare img {
+  width: 33%;
+    padding: 10px 10px;
+    align-items: center;
+    background: #4A5056;
+    justify-content: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.projectsbox {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  margin-top: 15px;
+}
+
+
+
+.portfoliologo {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.projectsquare a {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+
+.scrollbuttons {
+  margin-bottom: 20px;
+  margin-left: 0px;
+  float: left;
+}
+
+.buttonpadding {
+  margin-left: -35px;
+}
+.menubutton {
+  width: 35%;
+  height: auto;
+}
+
+.leftbutton {
+  width: 35%;
+  height: auto;
+}
+
+.rightbutton {
+  width: 35%;
+  height: auto;
+}
+}
+
+
+
+
+/** Width between 601px to 765
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+@media(min-width: 601px) and (max-width:765px){
+
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 0px;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+}
+.portfoliologo {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: auto;
+  margin-bottom: 15px;
+}
+section {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 165%;
+  padding-left: 0px;
+  padding-right:0px;
+  margin-top: 25px;
+  flex-direction: column;
+
+}
+ 
+main {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+aside{
+  width: 100%;
+  text-align: center;
+  padding:0;
+}
+
+.asidecontent {
+  margin-top: 73px;
+}
+
+.asidetitle2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  color: #292929;
+}
+
+.asidetitle2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #292929;
+}
+
+.asidecontent {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+
+.asidetags {
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  margin-left: 50px;
+  flex-direction: row;
+  margin-right: 50px;
+  justify-content: space-between;
+
+}
+
+
+.buttonpadding {
+  margin-left: 65px;
+  margin-right: 10px;
+}
+
+.buttonfix {
+    margin-top: 20px;
+}
+.formulario{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.palign1 {
+  padding: 30px 0 30px 0px;
+  padding: 20px 25px 20px 25px;
+  text-align: center;
+}
+
+body{
+  text-align: center;
+  width: 100%;
+  
+}
+
+.otrabalhos {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 50px;
+}
+
+ .projectsbox {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+ .projectsquare {
+  cursor: pointer;
+  align-items: center;
+  width: 100%;
+  padding: 0px 5px 0px 5px;
+  border-radius: 8px;
+  background: #efefef;
+  height: 235px;
+}
+
+.projectsquare2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 32%;
+  padding: 8px;
+  border-radius: 5px;
+  background: #efefef;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  padding-left: 0px;
+  font-weight: bold;
+}
+ .projectsquare a {
+  padding-left: 0px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.projectsquare img {
+  width: 100%;
+  padding: 0px 0px;
+  align-items: center;
+  background: #4A5056;
+  justify-content: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+}
+
+
+.projectsbox {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 15px;
+}
+.titlefix {
+  margin-left: 0px;
+  font-size: 22px;
+}
+.mbflex{
+  width: 100%;
+}
+
+
+.menubutton {
+  width: 35%;
+  height: auto;
+}
+
+.leftbutton {
+  width: 35%;
+  height: auto;
+}
+
+.rightbutton {
+  width: 35%;
+  height: auto;
+}
+
+
+#header .header-content {
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+/** Width between 600px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 600px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+ 
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+
+  section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 165%;
+    padding-left: 0px;
+    padding-right:0px;
+   
+    margin-top: 25px;
+
+    flex-direction: column;
+}
+
+main {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.palign1 {
+  
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+}
+
+body{
+  text-align: center;
+}
+
+.container1 {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+aside{
+  width: 100%;
+  text-align: center;
+  padding:0;
+}
+
+
+.asidetitle2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  color: #292929;
+}
+
+.asidetitle2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #292929;
+}
+
+.asidetags{
+  margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+
+
+.asidecontent{
+  padding-right: 70px;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.asidetitle {
+  font-size: 18px;
+}
+
+.asidetitle2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+.asidepara {
+  font-size: 12px;
+
+}
+
+
+.mbflex{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.portfoliologo {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.projectsquare{
+  cursor: pointer;
+    align-items: center;
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+    border-radius: 8px;
+    background: #efefef;
+    height: 160px;
+}
+.projectsquare2 {
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 31%;
+    padding: 8px;
+    border-radius: 5px;
+    background: #efefef;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 0px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.projectsquare img {
+  width: 100%;
+  padding: 0px 0px;
+  align-items: center;
+  background: #4A5056;
+  justify-content: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+ 
+}
+
+
+.projectsquare a {
+
+  padding-left: 0px;
+    padding-bottom: 50px;
+    padding-top: 8px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.projectsbox {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.otrabalhos{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ margin-top: 65px;
+}
+
+.titlefix {
+margin-left: 0;
+margin-top: 10px;
+  font-size: 20px;
+}
+
+
+
+.buttonpadding {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.scrollbuttons {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.menubutton {
+  width: 35%;
+  height: auto;
+}
+
+.leftbutton {
+  width: 35%;
+  height: auto;
+}
+
+.rightbutton {
+  width: 35%;
+  height: auto;
+}
+
+.ricon{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 55px;
+}
+
+
+#footer{
+  margin-top: 60px;
+}
+
+
+}
+
+/* Width between 480px to 0
+*  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (max-width: 480px) {
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+ 
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+
+  section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 165%;
+    padding-left: 0px;
+    padding-right:0px;
+   
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+main {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.palign1 {
+  padding: 30px 0 30px 0px;
+  padding: 20px 25px 20px 25px;
+  text-align: center;
+}
+
+body{
+  text-align: center;
+}
+
+.container1 {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+aside{
+  width: 100%;
+  text-align: center;
+  padding:0;
+}
+
+.asidetitle2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  color: #292929;
+}
+
+.asidetitle2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #292929;
+}
+
+.asidetags{
+  margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-between;
+
+}
+
+.asidecontent{
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.asidetitle {
+  font-size: 18px;
+}
+
+.asidetitle2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+.asidepara {
+  font-size: 12px;
+
+}
+
+
+.mbflex{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ricon{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 55px;
+}
+
+.portfoliologo {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.projectsquare{
+  cursor: pointer;
+    align-items: center;
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+    border-radius: 8px;
+    background: #efefef;
+    height: 160px;
+}
+.projectsquare2 {
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 31%;
+    padding: 8px;
+    border-radius: 5px;
+    background: #efefef;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 0px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.projectsquare img {
+  width: 100%;
+  padding: 0px 0px;
+  align-items: center;
+  background: #4A5056;
+  justify-content: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+ 
+}
+
+
+.projectsquare a {
+
+  padding-left: 0px;
+  padding-bottom: 50px;
+  padding-top: 8px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.projectsbox {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.otrabalhos{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+}
+
+.titlefix {
+  margin-left: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: -15px;
+}
+
+
+
+.buttonpadding {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.scrollbuttons {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menubutton {
+  width: 35%;
+  height: auto;
+}
+
+.leftbutton{
+  width: 35%;
+  height: auto;
+}
+
+.rightbutton{
+  width: 35%;
+  height: auto;         
+}
+
+
+
+
+
+#footer{
+  margin-top: 60px;
+}
+}
+
+  /* Navbar */
+  
+
+
+
+
+@media (max-width:350px){
+
+
+  .asidetitle2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    color: #292929;
+}
+
+  .asidetitle2 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #292929;
+}
+  
+}
