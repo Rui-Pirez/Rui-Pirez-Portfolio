@@ -1,0 +1,22 @@
+{
+  "name": "rui-pirez-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist/* && mkdir ./dist/css && cp ./index.html .dist/index.html && cp ./css/main.css ./dist/css/main.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rui-Pirez/Rui-Pirez-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rui-Pirez/Rui-Pirez-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Rui-Pirez/Rui-Pirez-Portfolio#readme"
+}
