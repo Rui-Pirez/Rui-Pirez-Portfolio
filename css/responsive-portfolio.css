@@ -41,7 +41,10 @@
     font-weight: 600;
     color: #292929;
 }
-  
+
+.container {
+  max-width: 1330px;
+}
   
 .palign {
   
