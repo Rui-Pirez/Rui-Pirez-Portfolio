@@ -166,6 +166,14 @@
   width: 35%;
   height: auto;
 }
+
+.likebutton:hover{
+  color: aqua;
+}
+
+.likebutton:active{
+  color: red;
+}
 }
 
 
