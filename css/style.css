@@ -603,8 +603,10 @@ padding-right: 20px;
   font-size: 13px;
 }
 
-.formentre{
-  font-size: 20px;
+.formentre {
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: capitalize;
 }
 
 /*-----------------------------------------------------------------------------------*/

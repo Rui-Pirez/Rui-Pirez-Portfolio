@@ -572,6 +572,12 @@ aside {
   height: auto;
 }
 
+.formentre {
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
 
 }
 
@@ -629,6 +635,12 @@ aside {
     width: 35%;
     height: auto;
   }
+
+  .formentre {
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
   
 }
 
@@ -795,6 +807,13 @@ aside {
   width: 35%;
   height: auto;
 }
+
+.formentre {
+  font-size: 33px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
 }
 
 
