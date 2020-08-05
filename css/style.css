@@ -467,6 +467,10 @@ padding-left: 20px;
 padding-right: 20px;
 }
 
+.gridtitle{
+  font-size: 23px;
+  font-weight: 900;
+}
 
 .gridsubs{
   color: #292929;
