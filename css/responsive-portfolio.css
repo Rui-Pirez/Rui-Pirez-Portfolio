@@ -1337,11 +1337,7 @@ margin-top: 10px;
     padding-bottom: 10px;
   }
  
-  .ricon {
-    width: 124px;
-    height: auto;
-    margin-bottom: 26px;
-}
+ 
   .responsive {
     float: right;
     padding-top: 15px;
@@ -1531,8 +1527,8 @@ aside{
 
 
 .buttonpadding {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .scrollbuttons {
@@ -1543,23 +1539,31 @@ aside{
 }
 
 .menubutton {
-  width: 35%;
+  width: 50%;
   height: auto;
 }
 
 .leftbutton{
-  width: 35%;
+  width: 50%;
   height: auto;
 }
 
 .rightbutton{
-  width: 35%;
+  width: 50%;
   height: auto;         
+}
+ 
+.likebutton{
+  width: 54%;
+    height: auto;
 }
 
 
-
-
+.herobanner{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
 
 #footer{
   margin-top: 60px;
