@@ -477,14 +477,20 @@ body{
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
+#about .about-descr {
+  padding: 0 25px;
+}
+
   #about .about-descr .p-heading {
-    font-size: 20px;
-    text-align: center;
+    font-size: 16px;
+    text-align: justify;
   }
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
-    text-align: center;
+    text-align: justify;
+    font-size: 12px;
   }
   /* portfolio */
   #portfolio .portfolio-list .nav li {
