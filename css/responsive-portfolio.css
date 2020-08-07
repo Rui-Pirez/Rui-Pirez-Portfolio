@@ -1337,6 +1337,11 @@ margin-top: 10px;
     padding-bottom: 10px;
   }
  
+  .ricon {
+    width: 124px;
+    height: auto;
+    margin-bottom: 26px;
+}
   .responsive {
     float: right;
     padding-top: 15px;

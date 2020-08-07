@@ -422,7 +422,11 @@ body{
 
 
 
-
+  .ricon {
+    width: 110px;
+    height: auto;
+    margin-bottom: 26px;
+}
 
   /* About */
 
