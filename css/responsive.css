@@ -428,6 +428,13 @@ body{
     margin-bottom: 26px;
 }
 
+.header-content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
   /* About */
 
   #about{
