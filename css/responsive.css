@@ -420,7 +420,23 @@ body{
     display: block;
   }
 
+  .formtitle {
+    font-size: 26px;
+    
+}
 
+.formentre {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.contact-block {
+  padding: 0 15px;
+}
+
+.palign1 {
+  justify-content: left;
+}
 
   .ricon {
     width: 110px;
@@ -434,6 +450,10 @@ body{
   margin-bottom: 20px;
   text-transform: uppercase;
   color: #fff;
+}
+
+.contact-details{
+  display: none;
 }
 
 .header-content p {
