@@ -437,7 +437,7 @@ body{
 }
 
 .header-content p {
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -483,14 +483,14 @@ body{
 }
 
   #about .about-descr .p-heading {
-    font-size: 16px;
-    text-align: justify;
+    font-size: 18px;
+    text-align: left;
   }
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
-    text-align: justify;
-    font-size: 12px;
+    text-align: left;
+    font-size: 14px;
   }
   /* portfolio */
   #portfolio .portfolio-list .nav li {
