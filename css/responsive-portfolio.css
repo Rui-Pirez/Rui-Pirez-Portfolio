@@ -1034,7 +1034,11 @@ body{
 .mbflex{
   width: 100%;
 }
-
+.herobanner {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 .menubutton {
   width: 35%;
@@ -1186,7 +1190,11 @@ aside{
   font-size: 12px;
 
 }
-
+.herobanner {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 .mbflex{
   padding-left: 20px;
@@ -1365,8 +1373,8 @@ main {
 
 .palign1 {
   padding: 30px 0 30px 0px;
-  padding: 20px 25px 20px 25px;
-  text-align: center;
+  padding: 20px 35px 20px 35px;
+  text-align: left;
 }
 
 body{
