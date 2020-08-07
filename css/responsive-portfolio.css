@@ -1524,7 +1524,17 @@ aside{
   margin-bottom: -15px;
 }
 
-
+.titlesquare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
 
 .buttonpadding {
   margin-left: 0px;
