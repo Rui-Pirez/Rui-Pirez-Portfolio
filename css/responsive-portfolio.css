@@ -1604,6 +1604,12 @@ aside{
 @media (max-width:350px){
 
 
+section{
+  display: grid;
+  grid-template-columns: ;
+}
+
+
   .asidetitle2 {
     font-size: 20px;
     font-weight: 600;
@@ -1617,5 +1623,29 @@ aside{
     font-weight: 600;
     color: #292929;
 }
-  
+  .menubutton {
+  width: 70%;
+  height: auto;
+}
+
+.leftbutton{
+  width: 70%;
+  height: auto;
+}
+
+.rightbutton{
+  width: 70%;
+  height: auto;         
+}
+ 
+.likebutton{
+  width: 74%;
+    height: auto;
+}
+
+.palign1 {
+  padding: 30px 0 30px 0px;
+  padding: 10px 25px 20px 25px;
+  text-align: left;
+}
 }
