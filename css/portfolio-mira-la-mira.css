@@ -465,6 +465,15 @@ nav ul li a {
 
 
 
+.ecoli{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: bold;
+list-style-type: disc;
+margin-left: 20px;
+
+}
 
 
 
