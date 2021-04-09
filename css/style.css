@@ -109,9 +109,9 @@ p {
   color: #fff;
 }
 
+/*
 
-
-/* Flatten effect – flattens sides on hover */
+/* Flatten effect – flattens sides on hover 
 .paper-flatten {
   border: 1px solid transparent;
 	&:before,
@@ -151,7 +151,7 @@ p {
 }
 
 
-
+*/
 
 
 
