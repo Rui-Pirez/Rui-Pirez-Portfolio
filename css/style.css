@@ -729,7 +729,15 @@ padding-right: 20px;
 }
 
 .gifplace{
-  align-items: center;
-  width: auto;
-  height: auto;
+  display: block;
+  margin: auto;
+  width: 100%;
+  background: #fbfbfb;
+}
+
+.gifff{
+  width:50%; 
+  height:480px;
+  display: block;
+  margin: auto;
 }
