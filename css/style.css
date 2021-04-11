@@ -727,3 +727,9 @@ padding-right: 20px;
     padding-bottom: 15px;
     border-bottom-width: 4px;
 }
+
+.gifplace{
+  align-items: center;
+  width: auto;
+  height: auto;
+}
