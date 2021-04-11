@@ -369,7 +369,8 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
 
               <h2 class="mb-30">DIZ-ME OLÁ </h1>
               <h1 class="formtitle">DESCOBRE TUDO O QUE POSSO FAZER PELA SUA MARCA.</h4>
-<p class="palign1">Está apenas começando e não sabe por onde começar com sua presença online? Precisa de ajuda para descobrir quais serviços digitais precisa?</p>
+<p class="palign1">Está apenas começando e não sabe por onde começar com sua presença online? 
+  Precisa de ajuda para descobrir quais serviços digitais precisa? Tudo começa com um olá!</p>
              
               
 
@@ -475,5 +476,28 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
   <script src="js/main.js"></script>
 
 </body>
+
+<script>
+  var form = document.getElementById("my-form");
+  
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.innerHTML = "Thanks for your submission!";
+      form.reset()
+    }).catch(error => {
+      status.innerHTML = "Oops! There was a problem submitting your form"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>
 
 </html>
