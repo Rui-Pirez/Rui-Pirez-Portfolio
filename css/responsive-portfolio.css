@@ -1564,8 +1564,8 @@ aside{
 }
  
 .likebutton{
-  width: 54%;
-    height: auto;
+  width: 35%;
+    height: 55%;
 }
 
 
@@ -1603,4 +1603,10 @@ aside{
     color: #292929;
 }
   
+
+
+.likebutton{
+  width: 35%;
+  height: 55%;
+}
 }
