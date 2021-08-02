@@ -1,4 +1,186 @@
-@media (min-width: 1600px) and (max-width:2320px){
+@media (min-width: 2000px) and (max-width:2400px){
+  section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 25px;
+}
+
+  main {
+    width: 60%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  
+  
+  aside {
+    width: 40%;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 50px;
+  }
+
+  .asidecontent {
+    margin-top: 73px;
+}
+
+  .asidetitle2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    color: #292929;
+    text-align: center;
+}
+
+  .asidetitle2 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #292929;
+}
+
+.container {
+  max-width: 1330px;
+}
+  
+.palign {
+  
+  padding: 20px 0px 20px 0px;
+  text-align: left;
+}
+
+  .otrabalhos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .portfoliologo {
+    display: flex;
+    justify-content: center;
+    width: 31%;
+    height: auto;
+    margin-bottom: 15px;
+}
+  
+  .projectsquare2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    background: #efefef;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 0px;
+    font-weight: bold;
+  }
+  
+  
+  .projectsquare img {
+    width: 33%;
+      padding: 10px 10px;
+      align-items: center;
+      background: #4A5056;
+      justify-content: center;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+      border: none;
+      border-radius: 8px 8px 8px 8px;
+  }
+  .projectsquare a {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .projectsbox {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  
+  .projectsquare img {
+    width: 35%;
+    padding: 10px 10px;
+    align-items: center;
+    background: #4A5056;
+    justify-content: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+}
+  .projectsquare2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 32%;
+    padding: 8px;
+    border-radius: 5px;
+    background: #efefef;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 0px;
+    font-weight: bold;
+  }
+  .scrollbuttons {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titlefix {
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+  .menubutton {
+    width: 30%;
+    height: auto;
+  }
+  
+  .leftbutton {
+    width: 30%;
+    height: auto;
+  }
+  
+  .rightbutton {
+    width: 30%;
+    height: auto;
+  }
+  .buttonpadding {
+    margin-left: -55px;
+}
+
+.likebutton {
+  width: 74%;
+  height: 62px;
+}
+
+.likebutton:hover{
+  color: aqua;
+}
+
+.likebutton:active{
+  color: red;
+}
+}
+
+
+@media (min-width: 1600px) and (max-width:2000px){
 
   section {
     display: flex;
