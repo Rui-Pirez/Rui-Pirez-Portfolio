@@ -1,4 +1,4 @@
-@media (min-width: 1600px) and (max-width:2000px){
+@media (min-width: 1600px) and (max-width:2320px){
 
   section {
     display: flex;
@@ -1051,6 +1051,10 @@ body{
   height: auto;
 }
 
+.likebutton{
+  width: 33%;
+  height: 62%;
+}
 
 #header .header-content {
   height: 100vh;
@@ -1606,7 +1610,7 @@ aside{
 
 
 .likebutton{
-  width: 35%;
-  height: 55%;
+  width: 30%;
+  height: 29%;
 }
 }
