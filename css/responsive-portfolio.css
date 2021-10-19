@@ -827,6 +827,11 @@ aside {
     width: 20%;
     height: 60%;
   }
+
+
+  .likebutton:hover{
+    background: #292929;
+  }
 }
 
 
@@ -1237,7 +1242,7 @@ body{
 }
 
 .likebutton{
-  width: 33%;
+  width: 20%;
   height: 62%;
 }
 
