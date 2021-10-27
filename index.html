@@ -7,6 +7,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Rui Pirez Portfolio</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   <meta content="" name="keywords">
   <meta content="" name="description">
 
@@ -185,9 +186,22 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
 
 
   <!-- 3dmodelviewer start -->
-  
-  <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="shared-assets/models/NeilArmstrong.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/moon_1k.hdr" poster="assets/NeilArmstrong.webp" seamless-poster shadow-intensity="1" camera-controls></model-viewer>
- 
+  <div id="modelblock">
+   <div class="modelside">
+    <model-viewer alt="samsung galaxys10" 
+    src="assets/galaxy/GalaxyS10.glb" 
+    ar ar-modes="webxr scene-viewer quick-look"  
+    camera-controls></model-viewer>
+   </div>
+   <div class="modeltext"> 
+    <h1>"The best way to interact with the internet is to feel it." </h1>
+    
+    <div class="modelsubtext">
+      <img height="25px" width="25px" src="images/modelicon.png" alt="modelicon">
+    <p>interaja com o objeto</p>
+  </div>
+  </div>
+  </div>
  <!-- 3dmodelviewer end  -->
 
 
@@ -196,6 +210,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
 
 
   
+
 
   <!-- start section portfolio -->
   <div id="portfolio" class="text-center paddsection">
@@ -512,7 +527,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
 
 
-  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
