@@ -341,7 +341,7 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: #ffffff;
   padding-top: 190px;
 }
 
@@ -376,7 +376,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #f7f7f7;
+  background: #ffffff;
   position: relative;
   padding-bottom: 80px;
 }
