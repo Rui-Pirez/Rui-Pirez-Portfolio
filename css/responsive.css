@@ -38,6 +38,56 @@
     justify-content: center;
     flex-direction: column;
 }
+
+
+
+#modelblock{
+  height: 100vh;
+  width: 100vw;
+  color:#292929;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modelside{
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+
+  
+}
+.modeltext{
+width: 50%;
+height: 50%;
+display: flex;
+flex-direction: column;
+align-self: center;
+align-items: center;
+text-align: center;
+padding-right: 100px;
+margin-left: -150px;
+padding-top: 100px;
+}
+
+
+.modelsubtext{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+model-viewer {
+  display: block;
+  position: relative;
+  contain: strict;
+  width: 100%;
+  height: 90%;
+}
 }
 
 
@@ -82,6 +132,60 @@
   margin-bottom: 0;
   text-align: center;
   }
+
+
+
+  #modelblock{
+    height: 100vh;
+    width: 100vw;
+    color:#292929;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .modelside{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  
+    
+  }
+  .modeltext{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 100px;
+  margin-left: -150px;
+  padding-top: 100px;
+  }
+  
+  
+  .modelsubtext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  model-viewer {
+    display: block;
+    position: relative;
+    contain: strict;
+    width: 100%;
+    height: 90%;
+  }
+
+
+
+
 }
 
 
@@ -193,6 +297,57 @@
     float: none;
     display: inline-block;
   }
+
+  #modelblock{
+    height: 100vh;
+    width: 100vw;
+    color:#292929;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .modelside{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  
+    
+  }
+  .modeltext{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 100px;
+  margin-left: -150px;
+  padding-top: 100px;
+  }
+  
+  
+  .modelsubtext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  model-viewer {
+    display: block;
+    position: relative;
+    contain: strict;
+    width: 100%;
+    height: 90%;
+  }
+
+
+
 }
 
 /** Width between 767px to 0
@@ -286,6 +441,54 @@
     margin-left: 0;
     float: none;
     display: inline-block;
+  }
+
+  #modelblock{
+    height: 100vh;
+    width: 100vw;
+    color:#292929;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .modelside{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  
+    
+  }
+  .modeltext{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 100px;
+  margin-left: -150px;
+  padding-top: 100px;
+  }
+  
+  
+  .modelsubtext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  model-viewer {
+    display: block;
+    position: relative;
+    contain: strict;
+    width: 100%;
+    height: 90%;
   }
 }
 
@@ -382,6 +585,54 @@
     margin-left: 0;
     float: none;
     display: inline-block;
+  }
+
+  #modelblock{
+    height: 100vh;
+    width: 100vw;
+    color:#292929;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .modelside{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  
+    
+  }
+  .modeltext{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 100px;
+  margin-left: -150px;
+  padding-top: 100px;
+  }
+  
+  
+  .modelsubtext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  model-viewer {
+    display: block;
+    position: relative;
+    contain: strict;
+    width: 100%;
+    height: 90%;
   }
 }
 
@@ -531,6 +782,54 @@ body{
     margin-left: 0;
     float: none;
     display: inline-block;
+  }
+
+  #modelblock{
+    height: 100vh;
+    width: 100vw;
+    color:#292929;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .modelside{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  
+    
+  }
+  .modeltext{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 100px;
+  margin-left: -150px;
+  padding-top: 100px;
+  }
+  
+  
+  .modelsubtext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  model-viewer {
+    display: block;
+    position: relative;
+    contain: strict;
+    width: 100%;
+    height: 90%;
   }
 }
 
