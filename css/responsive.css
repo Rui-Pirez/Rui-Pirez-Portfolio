@@ -5,7 +5,7 @@
 @media (min-width: 1200px) {
   
   #services {
-    background: #f7f7f7;
+    background: #ffffff;
     position: relative;
     padding-bottom: 80px;
     text-align: center;
@@ -48,7 +48,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   
   #services {
-    background: #f7f7f7;
+    background: #ffffff;
     position: relative;
     padding-bottom: 80px;
     text-align: center;
@@ -341,7 +341,7 @@
   #about{
     width: 100%;
     height: auto;
-    background: #f7f7f7;
+    background: #ffffff;
     padding-top: 50px;
   }
 
@@ -470,7 +470,7 @@ body{
   #about{
     width: 100%;
     height: auto;
-    background: #f7f7f7;
+    background: #ffffff;
     padding-top: 50px;
   }
 
@@ -553,7 +553,7 @@ body{
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #ffffff;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
