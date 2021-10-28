@@ -315,8 +315,8 @@ nav ul li a {
 }
 
 .header-content p {
-  font-size: 15px;
-  letter-spacing: 5px;
+  font-size: 12px;
+  letter-spacing: 3 px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
