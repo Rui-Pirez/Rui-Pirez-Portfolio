@@ -1,0 +1,516 @@
+<?php
+include_once '/components/Header/header.php'
+?>
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <img class="ricon" src="images/logo.png"  alt="me" >
+        <h1>Sou <span class="typed"></span></h1>
+        <p>Ui/Ux Designer// Front-End Developer // Fotógrafo/Videográfo</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="https://github.com/Rui-Pirez/" target="_blank"><i class="ion-social-github"></i></a></li>
+          
+          <li><a href="https://www.instagram.com/rui_pirez/" target="_blank"><i class="ion-social-instagram"></i></a></li>
+    
+          <li><a href="https://www.linkedin.com/in/rui-pirez/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+ <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">Sou um Front-End Web Designer freelancer, versátil e especializado em múltimedia e Front-End Development, sediado em Caldas da Rainha, Portugal, com um enorme amor por fotografia, direção de 
+              arte e Webdesign. Com estas competencias e após um levantamento das necessidades de cada projeto consigo ajudar empresas a ganhar uma presença on-line forte, desenvolvendo soluções web com ênfase na criação, implementação e disseminação de websites,
+              como tambem lojas on-line. </p>
+
+            <p class="separator">Trabalho com Desenvolvimento Web Front-End desde 2018. 
+Tenho experiência com algumas linguagens de programação como html5, css e javascript, assim como Plataformas de e-commerce como shopify, wix, WooCommerce.
+Em todos os projectos, pesquiso tecnologias, bibliotecas e frameworks, definindo a plataforma adequada para cada tipo de deles. 
+Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere e After Effects, XD), Figma.</p>
+
+         </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->
+  <div id="services">
+     <div class="section-title text-center">
+        <h2>Principais Serviços</h2>
+      </div>
+    <div class="container">
+
+        <div class="services-carousel owl-theme">
+
+          <div class="services-block">
+
+            <i class="ion-ios-browsers-outline"></i>
+            <span>DESIGN UI/UX </span>
+            <!--<p class="separator">Um designer de UX está preocupado com todo o processo de aquisição e integração de um produto, incluindo aspectos de marca, função e usabilidade.  </p> -->
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-lightbulb-outline"></i>
+            <span>IDENTIDADE DE MARCA</span>
+           <!-- <p class="separator">Uma imagem Profissional da sua Empresa ou negócio, é um fator diferenciador entre o sucesso ou o insucesso do seu projeto.  </p>-->
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-color-wand-outline"></i>
+            <span>WEB DESIGN</span>
+<!--            <p class="separator">Um website é essencial para uma presença forte na Internet e para uma imagem profissional. </p>-->
+
+          </div>
+
+
+          <div class="services-block">
+
+            <i class="ion-ios-analytics-outline"></i>
+            <span>Lojas Online</span>
+<!--            <p class="separator">To an English person, it will seem like simplified English,told me what </p>-->
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-analytics-outline"></i>
+            <span>Motion Design</span>
+<!--            <p class="separator">To an English person, it will seem like simplified English,told me what </p>-->
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-camera-outline"></i>
+            <span>FOTOGRAFIA</span>
+<!--            <p class="separator"> Fotografia e vídeo são ferramentas importantes para apresentar sua marca e 
+              podem aumentar o interesse em seu público, gerando mais conversões em sua empresa. </p>-->
+
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!-- end section services -->
+  
+
+
+  <!-- 3dmodelviewer start -->
+  <div id="modelblock">
+   <div class="modelside">
+    <model-viewer alt="samsung galaxys10" 
+    src="assets/galaxy/GalaxyS10.glb" 
+    ar ar-modes="webxr scene-viewer quick-look"  
+    camera-controls></model-viewer>
+   </div>
+   <div class="modeltext"> 
+    <h1 class="modeltit">"The best way to navigate the internet is to interact with it." </h1>
+    
+    <div class="modelsubtext">
+      <img height="25px" width="25px" src="images/modelicon.png" alt="modelicon">
+    <p>interagir com o objeto</p>
+  </div>
+  </div>
+  </div>
+ <!-- 3dmodelviewer end  -->
+
+
+
+
+
+
+  
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Alguns Trabalhos</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">all</li>
+              <li class="filter" data-filter=".branding">branding</li>
+              <li class="filter" data-filter=".motion">3D & Motion Graphics</li>
+              <li class="filter" data-filter=".webdesign">web design</li>
+              <li class="filter" data-filter=".photography">photography</li>
+              <li class="filter" data-filter=".UxUi">Ux/Ui</li>
+              
+         <!--     <li class="filter" data-filter=".photography">photography</li> -->
+            
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding">
+              <a href="/portfolio-Logofolio.html">
+                <img class="imagefit" src="images/portfolio/logofolio/logofoliomain.png"  alt="img">
+              <div class="titlecenter">
+              <h3 class="gridtitle">LOGOFOLIO </h3>
+              <h4 class="gridsubs">Logo Portfolio</h4>
+              </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign">
+              <a  href="/portfolio-mira-la-mira.html">
+                <img class="imagefit" src="images/portfolio/mira/6.jpg" alt="img">
+               <div class="titlecenter">
+              <h3 class="gridtitle">MIRA LA MIRA STORE</h3 >
+              <h4 class="gridsubs">Web design // loja online Shopify</h4>
+              </div>
+              </a>
+             </div>
+
+
+
+<div class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign UxUi">
+              <a  href="/portfolio-ecoleta.html">
+                <img class="imagefit" src="images/portfolio/ecoleta/131.jpg" alt="img">
+               <div class="titlecenter">
+              <h3 class="gridtitle">ECOLETA</h3 >
+              <h4 class="gridsubs">UX/UI DESIGN</h4>
+              </div>
+              </a>
+
+            </div>
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all motion">
+              <a href="/portfolio-whitemirror.html">
+                <img class="imagefit" src="images/portfolio/whitemirror/7.jpg" alt="img">
+              <div class="titlecenter">
+              <h3 class="gridtitle">WHITE MIRROR GENÉRICO</h3 >
+              <h4 class="gridsubs">3D // Motion Graphics</h4>
+              </div>
+              </a>
+             
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding">
+              <a href="/portfolio-espacotchien.html">
+                <img class="imagefit" src="images/portfolio/espacotchien/2.jpg"  alt="img">
+              <div class="titlecenter">
+              <h3 class="gridtitle">ESPAÇO TERAPEUTICO CHIEN</h3 >
+              <h4 class="gridsubs">Branding // Web Developing</h4>
+              </div>
+              </a>
+            </div>
+
+       <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+              <a href="/portfolio-pontovideo.html">
+                <img class="imagefit" src="images/portfolio/pontovideo/4.jpg" alt="img">
+               <div class="titlecenter">    
+              <h3 class="gridtitle">PONTO VIDEO</h3 >
+              <h4 class="gridsubs">Web Developing</h4>
+              </div>
+              </a>
+            </div>
+          <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits">
+              <a  href="/portfolio-tchibacakestore.html">
+                <img class="imagefit" src="images/portfolio/tchibacakestore/15.jpg" alt="img">
+               <div class="titlecenter">
+              <h3 class="gridtitle">TCHIBA CAKE STORE</h3 >
+              <h4 class="gridsubs">Branding // Social Media Management</h4>
+              </div>
+              </a>
+             
+            </div>
+
+           
+<!--   <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="images/portfolio/3.jpg">
+                <img class="imagefit" src="images/portfolio/people/12.jpg" alt="img">
+                <div class="titlecenter">
+                <h3>PEOPLE PHOTOGRAPHY</h3 >
+                <h4>Photoshoot<h4>
+              </div>
+              </a>
+            </div>
+
+
+            -->
+            
+
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a  href="/portfolio-people.html">
+                <img class="imagefit" src="images/portfolio/people/12.jpg" alt="img">
+                <div class="titlecenter">
+                <h3 class="gridtitle">PEOPLE PHOTOGRAPHY</h3 >
+                <h4 class="gridsubs">Photoshoot</h4>
+              </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign">
+              <a href="/portfolio-blue-moon.html">
+                
+                <img class="imagefit" src="images/portfolio/bm/10.jpg" alt="img">
+               
+               <div class="titlecenter">
+              <h3 class="gridtitle">BLUE MOON</h3>
+              <h4 class="gridsubs">Web Developing</h4>
+              </div>
+              </a>
+            </div>
+
+          
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a  href="/portfolio-animals.html">
+              
+                <img class="imagefit" src="images/portfolio/animalsofkrueger/1.jpg" alt="img">
+              
+                   <div class="titlecenter">
+              <h3 class="gridtitle">ANIMALS OF KRUEGER</h3 >
+              <h4 class="gridsubs">Photography</h4>
+                   </div>
+                 </a>
+                </div>
+            
+
+                <div class="col-lg-4 col-md-6 portfolio-thumbnail all UxUi">
+                  <a  href="/portfolio-waterbud.html">
+                  
+                    <img class="imagefit" src="images/portfolio/waterbud/image1.png" alt="img">
+                  
+                       <div class="titlecenter">
+                  <h3 class="gridtitle">WATERBUD</h3 >
+                  <h4 class="gridsubs">Ux/Ui</h4>
+                       </div>
+                     </a>
+                    </div>
+
+
+
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all UxUi webdesign motion">
+                      <a  href="/#l">
+                        <img class="imagefit" src="images/portfolio/lirandzo/1.jpg" alt="img">
+                        <div class="titlecenter">
+                        <h3 class="gridtitle">Lirandzo</h3 >
+                        <h4 class="gridsubs">Branding//Ux/ui//Webdesign//3D Graphics</h4>
+                      </div>
+                      </a>
+                    </div>
+
+
+
+
+            </div>
+
+            
+            
+              
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+<!--gif placement
+  <div class="gifplace">
+    <img src="images/portfolio/secgif.gif" class="gifff"></img>
+  </div>
+-->
+
+
+
+  <!-- End section portfolio -->
+
+
+
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">DIZ-ME OLÁ </h1>
+              <h1 class="formtitle">DESCOBRE TUDO O QUE POSSO FAZER PELA SUA MARCA.</h4>
+<p class="palign1">Está apenas começando e não sabe por onde começar com sua presença online? 
+  Precisa de ajuda para descobrir quais serviços digitais precisa? Tudo começa com um olá!</p>
+             
+              
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="https://formspree.io/f/mayayaql" method="POST" role="form" class="contactForm">
+              <div class="row">
+                <div id="sendmessage">A sua mensagem foi enviada. Entrarei em contacto assim que possivel!</div>
+                <div id="errormessage"></div>
+
+
+                  <div class="col-lg-12">
+                    <p class="formentre">Entra em contacto com a minha equipa! </p></div>
+                   <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" name="submitbutton" class="btn btn-defeault btn-send" onclick="alert('Obrigado pela confiança! Irei entrar em contacto assim que possivel')" value="Enviar messagem">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+
+
+
+<?php 
+include_once 'footer.php'
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+
+  
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+<script>
+  var form = document.getElementById("my-form");
+  
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.innerHTML = "Thanks for your submission!";
+      form.reset()
+    }).catch(error => {
+      status.innerHTML = "Oops! There was a problem submitting your form"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>
+
+</html>
