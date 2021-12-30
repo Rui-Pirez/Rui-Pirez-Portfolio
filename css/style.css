@@ -205,7 +205,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #000000;
 }
 
 .mb-30 {
@@ -459,8 +459,8 @@ nav ul li a {
 #portfolio .portfolio-list .nav li {
   margin: 0 40px 0 0;
   float: left;
-  font-size: 14px;
-  color: #999999;
+  font-size: 20px;
+  color: #e1e1e1;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
