@@ -76,6 +76,16 @@ nav ul li a {
 .linkp{
   color: #929292;
   font-weight: 500;
+  background-color:black;
+  width: 470px;
+  margin-top: 50px;
+  color: white ;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
 }
 
 
@@ -478,6 +488,8 @@ list-style-type: disc;
 margin-left: 20px;
 
 }
+
+
 
 
 
