@@ -592,8 +592,69 @@ padding-right: 20px;
 }
 
 
+/*-----------------------------------------------------------------------------------*/
+/*  Call me section
+/*-----------------------------------------------------------------------------------*/
+.callmesection{
+  background: #f5f5f5;
+  height: 200px;
+  width: 100vw;
+  margin:0 0;
+  padding: 0 0;
 
+  display: flex;
+  flex-direction: row;
+}
 
+.callmetext{
+  width: 50%;
+  padding-left: 265px;
+}
+.callmeinputs{
+  margin:0 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left:15px;
+}
+
+.callmetitle{
+  font-size: 16pt;
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+.callmesub{
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+.callmetxt{
+  font-size: 8pt;
+  margin-top: 5px;
+  line-height: normal;
+  
+}
+
+input[type=tel]{
+  width: 350px;
+  height: 40px;
+  padding-left: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  border:0.60px ;
+}
+
+input[type=submit]{
+  height: 40px;
+  width: 160px;
+  background: black;
+ 
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
