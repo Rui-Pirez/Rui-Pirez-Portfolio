@@ -77,16 +77,71 @@ nav ul li a {
   color: #929292;
   font-weight: 500;
   background-color:black;
-  width: 470px;
+  width: 350px;
   margin-top: 50px;
   color: white ;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 50px;
 
 }
+
+
+.imagefite{
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+.features{
+  width: 100%;
+}
+
+
+.featurestitle{
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+.featuresalign{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.featureimg{
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+.featuressub{
+  text-align: left;
+  padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -410,8 +465,11 @@ margin-top: 35px;
 }
 
 
-
-
+.pagebutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*-----------------------------------------------------------------------------------*/
 /*  Navbar Top
 /*-----------------------------------------------------------------------------------*/
