@@ -362,12 +362,12 @@ nav ul li a {
 
 #about .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
-  font-size: 28px;
+  font-size: 18px;
   text-align: left;
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  max-width: 100%;
   margin-bottom: 0;
   text-align: left;
 }
@@ -608,7 +608,7 @@ padding-right: 20px;
 
 .callmetext{
   width: 50%;
-  padding-left: 265px;
+  padding-left: 310px;
 }
 .callmeinputs{
   margin:0 0;
@@ -833,7 +833,7 @@ input[type=submit]{
 
 #modelblock{
   height: 100vh;
-  width: 100vw;
+  width: 89vw;
   color:#292929;
   display: flex;
   flex-direction: row;
@@ -851,7 +851,7 @@ input[type=submit]{
   
 }
 .modeltext{
-width: 50%;
+width: 42%;
 height: 50%;
 display: flex;
 flex-direction: column;
