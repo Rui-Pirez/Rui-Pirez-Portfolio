@@ -96,7 +96,7 @@ p {
 .btn {
   background: #060606;
   border: medium none;
-  border-radius: 10;
+  border-radius: 5px;
   color: #fff;
   font-size: 12px;
   height: 50px;
@@ -460,12 +460,12 @@ nav ul li a {
 #portfolio .portfolio-list .nav li {
   margin: 0 40px 0 0;
   float: left;
-  font-size: 20px;
+  font-size: 18px;
   color: #d5d5d5;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   -moz-transition: all 0.5s ease-in-out 0s;
@@ -608,7 +608,7 @@ padding-right: 20px;
 
 .callmetext{
   width: 50%;
-  padding-left: 310px;
+  padding-left: 18%;
 }
 .callmeinputs{
   margin:0 0;
@@ -662,8 +662,6 @@ input[type=submit]{
   border-radius: 5px;
   border: 0;
 }
-
-
 
 
 
@@ -804,7 +802,8 @@ input[type=submit]{
     padding-right: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom-width: 4px;
+    border-bottom-width: 6px;
+    border-radius: 5px;
 }
 
 .gifplace{

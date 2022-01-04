@@ -178,7 +178,7 @@ p {
 .btn {
   background: #333;
   border: medium none;
-  border-radius: 0;
+  border-radius: 5px;
   color: #fff;
   font-size: 12px;
   height: 50px;
@@ -686,7 +686,7 @@ margin-left: 20px;
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: #0000;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -743,4 +743,32 @@ margin-left: 20px;
 .credits {
   font-size: 13px;
 }
+
+
+.buttoncv{
+  padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-width: 6px;
+    border-radius: 5px;
+}
+
+.gifplace{
+  display: block;
+  margin: auto;
+  width: 100%;
+  
+}
+
+
+.gifff{
+  width:50%; 
+  height:480px;
+  display: block;
+  margin: auto;
+}
+
+
+
 
