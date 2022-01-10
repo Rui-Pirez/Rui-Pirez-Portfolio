@@ -78,7 +78,7 @@ nav ul li a {
   font-weight: 500;
   background-color:black;
   width: 350px;
-  margin-top: 50px;
+  margin-top: 5px;
   color: white ;
   height: 40px;
   display: flex;
@@ -129,8 +129,117 @@ nav ul li a {
   padding-top: 25px;
 }
 
+.featuressub2{
+  text-align: center;
+  padding-top: 25px;
+}
 
 
+.featuresalign{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.featuressection{
+  width: 100%;
+}
+
+
+.featuressection{
+  width: 100%;
+  height: auto;
+  padding-left: 18% ;
+  padding-right: 18%;
+  padding-bottom: 1%;
+  padding-top: 20px;
+}
+
+.featuressectionspacing{
+  margin-bottom: 50px;
+}
+
+
+.featuresloja{
+  background: rgb(240, 240, 240);
+}
+.featurescenter{
+  align-items: center;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Call me section
+/*-----------------------------------------------------------------------------------*/
+.callmesection{
+  background: #f5f5f5;
+  height: 200px;
+  width: 100vw;
+  margin:0 0;
+  padding: 0 0;
+  font-family:'poppins', Helvetica ;
+  display: flex;
+  flex-direction: row;
+}
+
+.callmetext{
+  width: 50%;
+  padding-left: 18%;
+}
+.callmeinputs{
+  margin:0 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left:15px;
+}
+
+.callmetitle{
+  font-size: 16pt;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.callmesub{
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+.callmetxt{
+  font-size: 8pt;
+  margin-top: 5px;
+  line-height: normal;
+  
+}
+
+.callmeform{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+input[type=tel]{
+  width: 350px;
+  height: 40px;
+  padding-left: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  border:0.60px ;
+}
+
+input[type=submit]{
+  height: 40px;
+  width: 160px;
+  background: black;
+ 
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}
 
 
 
@@ -176,7 +285,7 @@ p {
 }
 
 .btn {
-  background: #333;
+  background: rgb(0, 0, 0);
   border: medium none;
   border-radius: 5px;
   color: #fff;
@@ -260,6 +369,20 @@ ul{
 
 
 
+
+
+.colaboradoresfix{
+  margin-bottom: -18px;
+}
+
+
+.colaboradorestext{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10pt;
+}
+
+
 .hvr-shutter-in-horizontal::before {
   background: #333;
 }
@@ -275,6 +398,7 @@ ul{
 img{
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 /*-----------------SECTION------------------------------*/
 /*------------------------------------------------------*/
@@ -358,7 +482,7 @@ main {
 .herobanner2{
   width: 100%;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 /*-------------------heroimage-----------------------*/
 .heroimage{

@@ -349,6 +349,7 @@ nav ul li a {
 #about .div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #060606;
+  border-radius: 10px;
 }
 
 #about .div-img-bg .about-img img {
@@ -358,6 +359,8 @@ nav ul li a {
   margin-left: 40px;
   height: 400px;
   object-fit: cover;
+  
+  border-radius: 10px;
 }
 
 #about .about-descr .p-heading {
@@ -498,6 +501,7 @@ nav ul li a {
 
 .portfolio-thumbnail img {
   max-width: 100%;
+  border-radius: 15px;
 }
 
 .titlecenter {
