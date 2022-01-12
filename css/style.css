@@ -216,6 +216,7 @@ p {
 
 .formtitle{
   font-size: 30px;
+  font-weight: 400;
 }
 
 .ricon{
@@ -863,6 +864,10 @@ align-items: center;
 text-align: center;
 
 padding-top: 100px;
+}
+
+.modeltit{
+  font-weight: 400;
 }
 
 

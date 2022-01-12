@@ -74,16 +74,16 @@ nav ul li a {
 
 
 .linkp{
-  color: #929292;
   font-weight: 500;
-  background-color:black;
-  width: 350px;
+  background-color: black;
+  width: 400px;
   margin-top: 5px;
-  color: white ;
+  color: white;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 10px;
   border-radius: 50px;
 
 }
