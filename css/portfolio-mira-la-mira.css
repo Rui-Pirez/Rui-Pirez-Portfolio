@@ -1,7 +1,7 @@
 body {
   background: #ffffff;
   color: #000000;
-  font-family: 'Poppins', helvetica;
+  font-family: 'Montserrat', helvetica;
   font-size: 14px;
   font-weight: 300;
   line-height: 13px;
@@ -140,8 +140,11 @@ nav ul li a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  
+
+ 
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .featuressection{

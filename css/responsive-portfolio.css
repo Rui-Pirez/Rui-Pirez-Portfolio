@@ -271,7 +271,7 @@
     width: 33%;
       padding: 10px 10px;
       align-items: center;
-      background: #4A5056;
+      background: #000000;
       justify-content: center;
       box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
       border: none;
@@ -296,7 +296,7 @@
     width: 35%;
     padding: 10px 10px;
     align-items: center;
-    background: #e4e4e4;
+    background: #000000;
     justify-content: center;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
     border: none;
@@ -432,7 +432,7 @@ aside {
   width: 35%;
   padding: 10px 10px;
   align-items: center;
-  background: #4A5056;
+  background: #000000;
   justify-content: center;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
   border: none;
@@ -456,7 +456,7 @@ aside {
   width: 35%;
   padding: 10px 10px;
   align-items: center;
-  background: #4A5056;
+  background: #000000;
   justify-content: center;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
   border: none;
@@ -533,7 +533,7 @@ aside {
   width: 33%;
     padding: 10px 10px;
     align-items: center;
-    background: #4A5056;
+    background: #000000;
     justify-content: center;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
     border: none;
