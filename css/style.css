@@ -601,7 +601,7 @@ padding-right: 20px;
 /*  Call me section
 /*-----------------------------------------------------------------------------------*/
 .callmesection{
-  background: #000000;
+  background: #252525;
   height: 200px;
   width: 100vw;
   margin:0 0;
@@ -653,7 +653,7 @@ padding-right: 20px;
 
 input[type=tel]{
   width: 350px;
-  height: 40px;
+  height: 50px;
   padding-left: 20px;
   background: rgb(255, 255, 255);
   border-radius: 5px;
@@ -661,10 +661,10 @@ input[type=tel]{
 }
 
 input[type=submit]{
-  height: 40px;
+  height: 50px;
     width: 160px;
-    background: #bebebe;
-    color: rgb(0, 0, 0);
+    background: #000000;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     border: 0;
 }
