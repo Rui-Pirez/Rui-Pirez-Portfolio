@@ -1,151 +1,86 @@
-<?php
-include_once '/components/Header/header.php'
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Rui Pirez Portfolio FREEBIES</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
 
 
-  <!-- start section header -->
-  <div id="header" class="home">
+</head>
 
-    <div class="container">
-      <div class="header-content">
-        <img class="ricon" src="images/logo.png"  alt="me" >
-        <h1>Sou <span class="typed"></span></h1>
-        <p>Ui/Ux Designer// Front-End Developer // Fotógrafo/Videográfo</p>
+<body>
 
-        <ul class="list-unstyled list-social">
-          <li><a href="https://github.com/Rui-Pirez/" target="_blank"><i class="ion-social-github"></i></a></li>
-          
-          <li><a href="https://www.instagram.com/rui_pirez/" target="_blank"><i class="ion-social-instagram"></i></a></li>
-    
-          <li><a href="https://www.linkedin.com/in/rui-pirez/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End section header -->
-
-
- <!-- start section about us -->
-  <div id="about" class="paddsection">
-    <div class="container">
-      <div class="row justify-content-between">
-
-        <div class="col-lg-4 ">
-          <div class="div-img-bg">
-            <div class="about-img">
-              <img src="images/me.jpg" class="img-responsive" alt="me">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-7">
-          <div class="about-descr">
-
-            <p class="p-heading">Sou um Front-End Web Designer freelancer, versátil e especializado em múltimedia e Front-End Development, sediado em Caldas da Rainha, Portugal, com um enorme amor por fotografia, direção de 
-              arte e Webdesign. Com estas competencias e após um levantamento das necessidades de cada projeto consigo ajudar empresas a ganhar uma presença on-line forte, desenvolvendo soluções web com ênfase na criação, implementação e disseminação de websites,
-              como tambem lojas on-line. </p>
-
-            <p class="separator">Trabalho com Desenvolvimento Web Front-End desde 2018. 
-Tenho experiência com algumas linguagens de programação como html5, css e javascript, assim como Plataformas de e-commerce como shopify, wix, WooCommerce.
-Em todos os projectos, pesquiso tecnologias, bibliotecas e frameworks, definindo a plataforma adequada para cada tipo de deles. 
-Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere e After Effects, XD), Figma.</p>
-
-         </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end section about us -->
-
-
-  <!-- start section services -->
-  <div id="services">
-     <div class="section-title text-center">
-        <h2>Principais Serviços</h2>
-      </div>
+   <!-- start section navbar -->
+ <nav id="main-nav">
+  <div class="row">
     <div class="container">
 
-        <div class="services-carousel owl-theme">
+      <div class="logo">
+        <a href="index.html"><img src="images/nav-logo.png" alt="logo""></a>
+      </div>
 
-          <div class="services-block">
+      <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
-            <i class="ion-ios-browsers-outline"></i>
-            <span>DESIGN UI/UX </span>
-            <!--<p class="separator">Um designer de UX está preocupado com todo o processo de aquisição e integração de um produto, incluindo aspectos de marca, função e usabilidade.  </p> -->
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-lightbulb-outline"></i>
-            <span>IDENTIDADE DE MARCA</span>
-           <!-- <p class="separator">Uma imagem Profissional da sua Empresa ou negócio, é um fator diferenciador entre o sucesso ou o insucesso do seu projeto.  </p>-->
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB DESIGN</span>
-<!--            <p class="separator">Um website é essencial para uma presença forte na Internet e para uma imagem profissional. </p>-->
-
-          </div>
-
-
-          <div class="services-block">
-
-            <i class="ion-ios-analytics-outline"></i>
-            <span>Lojas Online</span>
-<!--            <p class="separator">To an English person, it will seem like simplified English,told me what </p>-->
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-analytics-outline"></i>
-            <span>Motion Design</span>
-<!--            <p class="separator">To an English person, it will seem like simplified English,told me what </p>-->
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-camera-outline"></i>
-            <span>FOTOGRAFIA</span>
-<!--            <p class="separator"> Fotografia e vídeo são ferramentas importantes para apresentar sua marca e 
-              podem aumentar o interesse em seu público, gerando mais conversões em sua empresa. </p>-->
-
-          </div>
-
-        </div>
+      <ul class="nav-menu list-unstyled">
+        <li><a href="index.html" class="smoothScroll">Home</a></li>
+        <li><a href="#about" class="smoothScroll">Sobre</a></li>
+        <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+        <li><a href="Webdesign.html" class="smoothScroll">Webdesign</a></li>
+        <li><a href="freebies.html" class="smoothScroll">Freebies</a></li>
+        <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        
+      </ul>
 
     </div>
+  </div>
+</nav>
+<!-- End section navbar -->
 
-  </div>
-  <!-- end section services -->
-  
 
 
-  <!-- 3dmodelviewer start -->
-  <div id="modelblock">
-   <div class="modelside">
-    <model-viewer alt="samsung galaxys10" 
-    src="assets/galaxy/GalaxyS10.glb" 
-    ar ar-modes="webxr scene-viewer quick-look"  
-    camera-controls></model-viewer>
-   </div>
-   <div class="modeltext"> 
-    <h1 class="modeltit">"The best way to navigate the internet is to interact with it." </h1>
-    
-    <div class="modelsubtext">
-      <img height="25px" width="25px" src="images/modelicon.png" alt="modelicon">
-    <p>interagir com o objeto</p>
-  </div>
-  </div>
-  </div>
- <!-- 3dmodelviewer end  -->
+
+
+
+
+
+
+
+
+<div>
+
+</div>
+
+
+
+
+
 
 
 
@@ -160,7 +95,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
 
     <div class="container">
       <div class="section-title text-center">
-        <h2>Alguns Trabalhos</h2>
+        <h2>FREEBIES</h2>
       </div>
     </div>
 
@@ -172,11 +107,11 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
 
             <ul class="nav list-unstyled" id="portfolio-flters">
               <li class="filter filter-active" data-filter=".all">all</li>
-              <li class="filter" data-filter=".branding">branding</li>
-              <li class="filter" data-filter=".motion">3D & Motion Graphics</li>
+              <li class="filter" data-filter=".branding">FONTES</li>
+              <li class="filter" data-filter=".motion">MOCK UPS</li>
               <li class="filter" data-filter=".webdesign">web design</li>
-              <li class="filter" data-filter=".photography">photography</li>
-              <li class="filter" data-filter=".UxUi">Ux/Ui</li>
+              <li class="filter" data-filter=".photography">WORDPRESS PLUGINS</li>
+              <li class="filter" data-filter=".UxUi">TEMPLATES</li>
               
          <!--     <li class="filter" data-filter=".photography">photography</li> -->
             
@@ -187,18 +122,18 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
           <div class="portfolio-container">
             
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding">
-              <a href="/portfolio-Logofolio.html">
-                <img class="imagefit" src="images/portfolio/logofolio/logofoliomain.png"  alt="img">
+              <a href="/#portfolio-Logofolio.html">
+                <img class="imagefit" src="images/freebies/madesoulmatefont/soulmaze.png"  alt="img">
               <div class="titlecenter">
-              <h3 class="gridtitle">LOGOFOLIO </h3>
-              <h4 class="gridsubs">Logo Portfolio</h4>
+              <h3 class="gridtitle">MADE SOULMAZE FONT </h3>
+              <h4 class="gridsubs">FREE FONTS</h4>
               </div>
               </a>
             </div>
-
+<!--
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign">
               <a  href="/portfolio-mira-la-mira.html">
-                <img class="imagefit" src="images/portfolio/mira/6.jpg" alt="img">
+                <img class="imagefit" src="images/freebies/madesoulmatefont/soulmaze.png" alt="img">
                <div class="titlecenter">
               <h3 class="gridtitle">MIRA LA MIRA STORE</h3 >
               <h4 class="gridsubs">Web design // loja online Shopify</h4>
@@ -210,7 +145,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
 
 <div class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign UxUi">
               <a  href="/portfolio-ecoleta.html">
-                <img class="imagefit" src="images/portfolio/ecoleta/131.jpg" alt="img">
+                <img class="imagefit" src="images/freebies/madesoulmatefont/soulmaze.png" alt="img">
                <div class="titlecenter">
               <h3 class="gridtitle">ECOLETA</h3 >
               <h4 class="gridsubs">UX/UI DESIGN</h4>
@@ -236,7 +171,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
                 <img class="imagefit" src="images/portfolio/espacotchien/2.jpg"  alt="img">
               <div class="titlecenter">
               <h3 class="gridtitle">ESPAÇO TERAPEUTICO CHIEN</h3 >
-              <h4 class="gridsubs">Branding // Web Developing</h4>
+              <h4 class="gridsubs">Branding</h4>
               </div>
               </a>
             </div>
@@ -246,7 +181,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
                 <img class="imagefit" src="images/portfolio/pontovideo/4.jpg" alt="img">
                <div class="titlecenter">    
               <h3 class="gridtitle">PONTO VIDEO</h3 >
-              <h4 class="gridsubs">Web Developing</h4>
+              <h4 class="gridsubs">Web Design</h4>
               </div>
               </a>
             </div>
@@ -262,18 +197,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
             </div>
 
            
-<!--   <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
-              <a class="popup-img" href="images/portfolio/3.jpg">
-                <img class="imagefit" src="images/portfolio/people/12.jpg" alt="img">
-                <div class="titlecenter">
-                <h3>PEOPLE PHOTOGRAPHY</h3 >
-                <h4>Photoshoot<h4>
-              </div>
-              </a>
-            </div>
 
-
-            -->
             
 
 
@@ -282,7 +206,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
                 <img class="imagefit" src="images/portfolio/people/12.jpg" alt="img">
                 <div class="titlecenter">
                 <h3 class="gridtitle">PEOPLE PHOTOGRAPHY</h3 >
-                <h4 class="gridsubs">Photoshoot</h4>
+                <h4 class="gridsubs">Photoshoots</h4>
               </div>
               </a>
             </div>
@@ -294,7 +218,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
                
                <div class="titlecenter">
               <h3 class="gridtitle">BLUE MOON</h3>
-              <h4 class="gridsubs">Web Developing</h4>
+              <h4 class="gridsubs">Web Design</h4>
               </div>
               </a>
             </div>
@@ -316,11 +240,29 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
                 <div class="col-lg-4 col-md-6 portfolio-thumbnail all UxUi">
                   <a  href="/portfolio-waterbud.html">
                   
-                    <img class="imagefit" src="images/portfolio/waterbud/image1.png" alt="img">
+                    <img class="imagefit" src="images/portfolio/waterbud/main.jpg" alt="img">
                   
                        <div class="titlecenter">
                   <h3 class="gridtitle">WATERBUD</h3 >
-                  <h4 class="gridsubs">Ux/Ui</h4>
+                  <h4 class="gridsubs">Ux/Ui Design // Future Tech Design</h4>
+                       </div>
+                     </a>
+                    </div>
+
+
+
+
+
+
+
+                <div class="col-lg-4 col-md-6 portfolio-thumbnail all UxUi">
+                  <a  href="/portfolio-real-estate-template.html">
+                  
+                    <img class="imagefit" src="images/portfolio/Realestatetemplate/realestate.png" alt="img">
+                  
+                       <div class="titlecenter">
+                  <h3 class="gridtitle">REAL ESTATE TEMPLATE</h3 >
+                  <h4 class="gridsubs">Ui Design</h4>
                        </div>
                      </a>
                     </div>
@@ -331,16 +273,27 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
 
 
                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all UxUi webdesign motion">
-                      <a  href="/#l">
+                      <a  href="portfolio-lirandzo.html">
                         <img class="imagefit" src="images/portfolio/lirandzo/1.jpg" alt="img">
                         <div class="titlecenter">
-                        <h3 class="gridtitle">Lirandzo</h3 >
-                        <h4 class="gridsubs">Branding//Ux/ui//Webdesign//3D Graphics</h4>
+                        <h3 class="gridtitle">LIRANDZO</h3 >
+                        <h4 class="gridsubs">Branding // Ux/Ui Design // Marketing Digital</h4>
                       </div>
                       </a>
                     </div>
 
 
+                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all UxUi">
+                      <a  href="#portfolio-To-do-app.html">
+                        <img class="imagefit" src="images/portfolio/todoapp/1.jpg" alt="img">
+                        <div class="titlecenter">
+                        <h3 class="gridtitle">TO-DO APP</h3 >
+                        <h4 class="gridsubs">ui Design</h4>
+                      </div>
+                      </a>
+                    </div>
+
+-->
 
 
             </div>
@@ -367,12 +320,29 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
 
 
 
-  <!-- End section portfolio -->
 
 
 
+  <!-- Callmesection index -->
+<div class="callmesection">
+  <div class="callmetext">
+  <h2 class="callmetitle">QUER SABER MAIS?</h2>
+  <h5 class="callmesub">Nós ligamos-lhe gratuitamente no espaço de 48h.</h5>
+  <p class="callmetxt""> Os dados recolhidos são tratados com a finalidade de gerir as respostas aos pedidos de esclarecimentos. 
+    Saiba mais sobre a nossa <a href=""> Política de Privacidade.</a></p>
+  </div>
 
 
+  <div class="callmeinputs">
+ <form action="https://formspree.io/f/mayayaql" method="POST" role="form" class="callmeform" >
+    <input type="tel" placeholder="Nº de telefone" id="tel" name="phonenumber"><br><br>
+      
+
+      <input type="submit" value="CONTACTAR" onclick="alert('Obrigado pela confiança! Irei entrar em contacto assim que possivel')">
+    </form>
+  </div>
+
+</div>
   <!-- start sectoion contact -->
   <div id="contact" class="paddsection">
     <div class="container">
@@ -382,7 +352,7 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
           <div class="col-lg-6">
             <div class="contact-contact">
 
-              <h2 class="mb-30">DIZ-ME OLÁ </h1>
+              <h2 class="mb-30">DIZ-ME OLÁ E </h1>
               <h1 class="formtitle">DESCOBRE TUDO O QUE POSSO FAZER PELA SUA MARCA.</h4>
 <p class="palign1">Está apenas começando e não sabe por onde começar com sua presença online? 
   Precisa de ajuda para descobrir quais serviços digitais precisa? Tudo começa com um olá!</p>
@@ -443,33 +413,37 @@ Tenho também experiência com o pacote Adobe (Photoshop, Illustrator, Premiere 
   <!-- start sectoion contact -->
 
 
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+         <li><a href="https://github.com/Rui-Pirez/"><i class="ion-social-github"></i></a></li>
+          
+          <li><a href="https://www.instagram.com/rui_pirez/"><i class="ion-social-instagram"></i></a></li>
+    
+          <li><a href="https://www.linkedin.com/in/rui-pirez/"><i class="ion-social-linkedin"></i></a></li>
+          
+        </ul>
+
+      </div>
+
+<div class="cvbutton">
+<a href="https://drive.google.com/file/d/1ezIXYri8Vp-igwdeVKSRdg7Wk7MXxbiD/view?usp=sharing">
+  <button class="buttoncv">Download CV</button>
+  <a href="" class="btn paper-flatten">OBTENHA A SUA COTAÇÃO</a>
+</a>
+</div>
 
 
+      <p>&copy; Copyrights by Rui Pirez. All rights reserved.</p>
 
-<?php 
-include_once 'footer.php'
-?>
+     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+  </div>
+  <!-- End section footer -->
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>

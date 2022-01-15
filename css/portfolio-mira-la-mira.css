@@ -912,20 +912,33 @@ margin-left: 20px;
   font-size: 15px;
   font-weight: 500;
   transition: 0.4s;
+  border-radius: 5px;
+}
+
+.active{
+  background-color: rgb(238, 238, 238);
 }
 
 .active, .accordion:hover {
-  background-color: #ccc; 
+  background-color: rgb(238, 238, 238); 
 }
 
 .panel {
   padding: 0 18px;
   display: none;
-  background-color: white;
+  background-color: rgba(236, 236, 236, 0.424);
   overflow: hidden;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-
+.salestext{
+  font-size:10pt;
+  margin-top: -12px;
+  color: rgb(180, 180, 180);
+}
 
 .stock{
   display: flex;
@@ -951,14 +964,32 @@ margin-left: 20px;
   align-items: center;
 }
 
+.panelflex{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
 
 
+.paneltitle{
+  font-size: 14pt;
+}
 
+.panelsub{
+  font-size: 10pt;
+  font-weight: 400;
+  margin-top: 5px;
+}
 
-
-
-
-
+.iconalign{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 
 
 
