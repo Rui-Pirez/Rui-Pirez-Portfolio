@@ -27,6 +27,23 @@
   padding-left: 17%;
 }
 
+.webflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.webtext{
+  font-size: 9pt;
+}
+
+
+
+
+
+
+
 .webtemplate{
   display: flex;
   flex-direction: row;
