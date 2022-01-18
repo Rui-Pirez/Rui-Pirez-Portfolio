@@ -113,7 +113,12 @@ text-align: center;
   font-size: 10pt;
 }
 
-
+.servicos{
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
 
 
 .platsection{
@@ -124,6 +129,7 @@ text-align: center;
   flex-direction: column;
   padding-right: 26%;
   padding-left: 26%;
+  padding-bottom: 50px;
 }
 
 .platwrap{
@@ -147,6 +153,27 @@ padding-right: 20px;
 padding-top: 30px;
 padding-bottom: 30px;
 }
+
+
+
+.plattitle{
+  font-size: 15pt;
+}
+
 .plattext{
   font-size: 8pt;
+}
+
+.platbutton{
+
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background: black;
+  border-radius: 5px;
+
+
+
 }
