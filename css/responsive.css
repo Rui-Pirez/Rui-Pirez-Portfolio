@@ -255,14 +255,17 @@ input[type=submit]{
 /*  Call me section
 /*-----------------------------------------------------------------------------------*/
 .callmesection{
-  background: #000000;
-  height: 200px;
-  width: 100vw;
-  margin:0 0;
-  padding: 0 0;
-
-  display: flex;
-  flex-direction: row;
+  background: #252525;
+    height: 300px;
+    width: 100vw;
+    margin: 0 0;
+    padding: 0 0;
+    font-family: poppins,Helvetica;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .callmetext{
@@ -323,7 +326,19 @@ input[type=submit]{
   font-size: 8pt;
 }
 
-
+.callmesection{
+  background: #252525;
+    height: 300px;
+    width: 100vw;
+    margin: 0 0;
+    padding: 0 0;
+    font-family: poppins,Helvetica;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
 }
 
@@ -635,7 +650,19 @@ input[type=submit]{
     width: 100%;
     height: 90%;
   }
-
+  .callmesection{
+    background: #252525;
+      height: 300px;
+      width: 100vw;
+      margin: 0 0;
+      padding: 0 0;
+      font-family: poppins,Helvetica;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 10%;
+      margin-bottom: 10%;
+  }
 
 }
 
@@ -779,6 +806,20 @@ input[type=submit]{
     contain: strict;
     width: 100%;
     height: 90%;
+  }
+
+  .callmesection{
+    background: #252525;
+      height: 300px;
+      width: 100vw;
+      margin: 0 0;
+      padding: 0 0;
+      font-family: poppins,Helvetica;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 10%;
+      margin-bottom: 10%;
   }
 }
 
